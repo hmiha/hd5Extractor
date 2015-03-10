@@ -51,8 +51,4 @@ def textIO(saveDir):
     f = open(path, 'w')
     f.write('disparity_scale =' + str(disparity_scale))
     f.close()
-    #print path, 'is written'
     return
-
-if __name__ == '__main__':
-    pass
